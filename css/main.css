@@ -426,7 +426,7 @@ filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=0.4);}
 .containerPackage {float:left; width:28.125%; /*270px*/ padding:1.6%; /*15px*/ margin-right:2%; /*20px*/ background-color:#e0e0e0;}
 .pImage {width:100%;}
 .more {display:block; color:#fb5411;}
-.containerIcons{float:left;}
+.containerHomeIcons{float:left; width:100px;}
 .containerPackage button {float:right; font-weight:bold; color:white; width:90px; height:30px; border-radius:3px; border:none; background-color:#fb5411;}
 .leftArrow, .rightArrow {position:absolute;  width:22px; height:44px; top:145px;}
 .leftArrow { left:-35px;background:url('../img/icons/arrowL.png') no-repeat;background-image:url('../img/icons/arrowL.png');background-repeat: no-repeat;}
@@ -610,14 +610,35 @@ PRODUCT / PACKAGES PAGE
 
 .containerProduct {float:left; width:67.77%; max-width:650px; margin-right:2%; padding:2%;  background-color:#e0e0e0;}
 
-.containerProduct article {margin-bottom:20px;}
+
+.containerProduct article {padding-bottom:20px; margin-bottom:20px;}
+.containerProduct article h3 {font-weight:bold;}
+.productHeader {position:absolute; width:40%; bottom:20px; color:white; height:75px;
+/* Fallback for web browsers that doesn't support RGBa */
+background: rgb(0, 0, 0) transparent;
+/* RGBa with 0.6 opacity */
+background: rgba(0, 0, 0, 0.3);
+/* For IE 5.5 - 7*/
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+/* For IE 8*/
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+
+.productHeader h2 {padding:10px; font-size:16px;}
+.productImageWrap {position:relative; width:100%;}
 .productImage {width:100%; margin-bottom:20px;}
 .productTextWrap {width:65.71%; max-width:460px; float:left;}
 
+.productTitle {border-bottom:black solid 1px;}
+.productTitle h2 {font-weight:bold;}
+
+.containerIcon {width:100%;}
+.containerIcon ul {list-style:none; width:100%;}
+.containerIcon li {float:left;}
 
 .productPrice {text-align:right; float:right; width:150px;}
 .productPrice h3 {margin-bottom:0;}
-.productPrice h2 {margin-top:0;}
+.productPrice h2 {margin-top:0; padding-bottom:10px; font-weight:bold;}
 .productPrice .quantity {display:block; float:right;}
 .productPrice p {margin-top:0;}
 .productPrice button {margin-left:40px; font-weight:bold; color:white;
