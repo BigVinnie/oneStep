@@ -38,6 +38,17 @@ h1,h2,h3,h4,h5,h6 {font-size:100%;font-weight:normal;}
 
 }
 
+@font-face {
+    font-family: 'brandon';
+    src: url('../fonts/brandon_re-webfont.eot');
+    src: url('../fonts/brandon_re-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/brandon_re-webfont.woff') format('woff'),
+         url('../fonts/brandon_re-webfont.ttf') format('truetype'),
+         url('../fonts/brandon_re-webfont.svg#brandon_grotesque_regularRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html,button,input,select,textarea{color:#222}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}img{vertical-align:middle}fieldset{border:0;margin:0;padding:0}textarea{resize:vertical}.chromeframe{margin:.2em 0;background:#ccc;color:#000;padding:.2em 0}
 
 /*================== MAIN CSS =======================*/
@@ -655,6 +666,166 @@ MAP
 =========================*/
 
 .containerMap {width:100%;}
+
+/*=== map background ===*/
+
+.mapContainer {
+    font-size: .8em;
+    line-height: 1.4;
+    font-family: tahoma;
+    color: #3e3e3e;
+}
+.cntrMap{margin: 10px auto;width: 100%;max-width: 1024px;}
+
+/*=== map background ===*/
+
+.compas{
+	background: url(i/compas.png) no-repeat;
+	width:127px;
+	height: 127px;
+	position: absolute;
+	margin-top: 59px;
+	margin-left: 48px;
+}
+.compasReset{-webkit-transform: rotate(0deg);-webkit-transition: all .2s ease;}
+
+.map{
+	background: url(i/960Map.png) no-repeat;
+	width:960px;
+	height: 955px;
+	position: absolute;	
+}
+
+/*=== map marker ===*/
+
+.marker:hover{
+	-moz-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=1.2, M12=-0, M21=0, M22=1.2);
+/* 	position: relative; */
+}
+
+.marker{
+	background: url(i/marker_x2.png) no-repeat center center;
+	background-size:48px 54px;
+	height: 54px;
+	width: 38px;
+	z-index: 10;
+	position: absolute;
+	-webkit-transition: all .2s ease; 
+	-moz-transition: all .3s ease-out; 
+	-o-transition: all .3s ease-out; 
+	transition: all .3s ease-out;	
+}
+
+/*=== map actions ===*/
+
+.plus{
+	background: url(i/plus_x2.png) no-repeat center center;
+	background-size:57px 55px;
+	height: 54px;
+	width: 38px;
+	z-index: 100;
+	position: absolute;
+	margin-top: -8px;
+	-webkit-transform: rotate(0deg) translate3d( 0, 0, 0);
+	-moz-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	transform: rotate(0deg);
+	-o-transition:.2s;
+	-ms-transition:.2s;
+	-moz-transition:.2s;
+	-webkit-transition:.2s;
+	transition:.2s;
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
+	cursor: pointer;
+}
+
+.rotate2 {
+	-webkit-transform: rotate(45deg) translate3d( 0, 0, 0);
+	-moz-transform: rotate(-180deg);
+	-o-transform: rotate(-180deg);
+	-ms-transform: rotate(-180deg);
+	transform: rotate(-180deg);
+	-o-transition:.2s;
+	-ms-transition:.2s;
+	-moz-transition:.2s;
+	-webkit-transition:.2s;
+	transition:.2s;
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+}
+
+.m1,.m2,.m3,.m4,.m6,.m7,.m8,.m9,.m5{position: relative;}
+.m1{top: 140px;left: 536px;}
+.m2{top: 115px;left: 608px;}
+.m3{top: 120px;left: 622px;}
+.m4{top: 109px;left: 689px;}
+.m5{top: 170px;left: 481px;}
+.m6{top: 110px;left: 580px;}
+.m7{top: 178px;left: 435px;}
+.m8{top: 209px;left: 263px;}
+.m9{top: 213px;left: 326px;}
+.m10{top: 82px;left: 515px;}
+.m11{top: 200px;left: 228px;}
+.m12{top: 139px;left: 327px;}
+.m13{top: 169px;left: 237px;}
+
+/*=== the text ===*/
+
+.placeNameR,.placeNameL{
+	position: absolute;
+	text-transform: uppercase;
+	font-size: 1.2em;
+	border-bottom:2px solid #c76d49;
+	width: 290px;
+	font-family: 'brandon' helvetica, arial, sans-serif;
+	letter-spacing: .1em;
+}
+.placeNameR{text-align: right;}
+.placeCon{position: relative;width: 0;}
+
+.auckland{top: 136px;left: 242px;}
+.coromandel{top: 112px;left: 650px;}
+.napier{top: 106px;left: 732px;}
+.ruapehu{top: 117px;left: 327px;}
+.sounds{top: 166px;left: 186px;}
+.wellington{top: 109px;left: 623px;}
+.christchurch{top: 174px;left: 478px;}
+.josef{top: 205px;left: -32px;}
+.dunedin{top: 209px;left: 369px;}
+.bayofislands{top: 79px;left: 558px;}
+.teanau{top: 197px;left: -68px;}
+.tekapo{top: 136px;left: 31px;}
+.milford{top: 166px;left: -59px;}
+
+.infoCon{
+	margin: 0 auto;
+	display: none;
+	width:100%;
+	background-color:#c76d49;
+	height:280px;
+	opacity: 0.9;
+	z-index: 10;
+	position: relative;
+	z-index: 102;
+	text-align: left;
+}
+.infoText{
+
+	padding: 10px;
+	text-transform: none;
+	font-size: .8em;
+	color:#e8e6d4;	
+	letter-spacing: .2em;
+	line-height: normal;
+	font-family: georgia, times, serif;
+	font-style: italic;
+}
+
 
 /* ==========================================================================
    Media Queries
