@@ -440,7 +440,8 @@ position: absolute;}
 	-o-transition: 300ms all;
 }
 .search { margin:0;height:40px;}
-.search .live-search input{} 
+.search .live-search input{}
+#srcTitleFooter {display:none;} 
 #searchBar,#searchBarFooter{	
 	outline: 0;
 	-webkit-appearance: textfield;
