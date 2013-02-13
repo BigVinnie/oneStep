@@ -457,6 +457,7 @@ position: absolute;}
 	-o-transition: 300ms all;
 }
 .search { margin:0;height:40px;}
+.search .live-search input{} 
 #searchBar,#searchBarFooter{	
 	outline: 0;
 	-webkit-appearance: textfield;
@@ -486,11 +487,6 @@ ACTIVITY PAGE
 .beadcrumbs {width:100%;}
 .breadcrumbs a {float:left; color:black;}
 
-
-.filters {width:66.66%; padding-top:20px; padding-bottom:20px;}
-.filters tr {margin-bottom:10px;}
-.filters th {text-align:left; padding-right:20px;}
-.filters td {text-align:left; padding-right:20px;}
 
 .containerActivities {float:left; width:70.91%;/*700px*/ max-width:700px; margin-right:2%; /*20px*/}
 .containerActivity { clear:both; width:98%; /*660px*/ max-width:660px; padding:10px; margin-bottom:20px; background-color:#e0e0e0;}
