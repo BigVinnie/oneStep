@@ -172,7 +172,6 @@ p{padding: 2% 0}
 
 #dropDown ul a:hover {
     background-color: #fb5411;
-    background-image: linear-gradient(#04acec, #fb5411);
 }
 
 /*==============dropDown Part THREE first:last child============*/
@@ -543,10 +542,6 @@ background:url('../img/homeSignOne.png') no-repeat;
 background-image:url('../img/homeSignOne.png');
 background-repeat:none;}
 .sidebarStandardLink:hover {
--moz-transform:rotate(20deg); -moz-transform:skewx(20deg) translatex(150px);
--webkit-transform:rotate(20deg);
--0-transform:rotate(15deg);
-filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=0.4);
 }
 
 .sidebarLuxuryLink { position:absolute; width:192px; height:77px; top:110px; left:15px;
@@ -555,10 +550,6 @@ background-image:url('../img/homeSignTwo.png');
 background-repeat:none;}
 
 .sidebarLuxuryLink:hover {
--moz-transform:rotate(15deg); -moz-transform:skewx(15deg) translatex(150px);
--webkit-transform:rotate(15deg);
--0-transform:rotate(15deg);
-filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=0.4);
 }
 
 .sidebarOptions {position:relative; margin-left:20px; margin-top:20px; width:75%; padding:10px; border-radius:3px; background-color:#47baf5;}
