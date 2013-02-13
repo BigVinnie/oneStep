@@ -670,7 +670,6 @@ MAP
 /*=== map background ===*/
 
 .mapContainer {
-    font-size: .8em;
     line-height: 1.4;
     font-family: tahoma;
     color: #3e3e3e;
@@ -680,7 +679,7 @@ MAP
 /*=== map background ===*/
 
 .compas{
-	background: url(i/compas.png) no-repeat;
+	background: url('../img/map/compas.png') no-repeat;
 	width:127px;
 	height: 127px;
 	position: absolute;
@@ -690,7 +689,7 @@ MAP
 .compasReset{-webkit-transform: rotate(0deg);-webkit-transition: all .2s ease;}
 
 .map{
-	background: url(i/960Map.png) no-repeat;
+	background: url('../img/map/960Map.png') no-repeat;
 	width:960px;
 	height: 955px;
 	position: absolute;	
@@ -709,7 +708,7 @@ MAP
 }
 
 .marker{
-	background: url(i/marker_x2.png) no-repeat center center;
+	background: url('../img/map/marker_x2.png') no-repeat center center;
 	background-size:48px 54px;
 	height: 54px;
 	width: 38px;
@@ -724,7 +723,7 @@ MAP
 /*=== map actions ===*/
 
 .plus{
-	background: url(i/plus_x2.png) no-repeat center center;
+	background: url('../img/map/plus_x2.png') no-repeat center center;
 	background-size:57px 55px;
 	height: 54px;
 	width: 38px;
