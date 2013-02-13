@@ -103,10 +103,11 @@ $(window).mouseleave(function() {
 
 /*=== Home image hover ===*/	
 
-$(".containerFeaturedImage ").hover(function () {
-        $(".captionOverlay").animate({height:"50px"}, 500);
-    }
-);
+$('.containerFeatured').hover(function() {  
+	$('.captionOverlay').stop().animate({height:"50px"},200);
+},
+function() {$('.captionOverlay').stop().animate({height: "40px"},300);
+});
 
 
 
