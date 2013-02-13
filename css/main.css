@@ -63,9 +63,9 @@ p{padding: 2% 0}
 
 
 /*======Top Navigation=======*/
-.topNav {width:100%; height:38px; background-color:#dfdfdf; background:url('../img/topBack.png') repeat #dfdfdf;}
+.topNav {width:100%; height:36px; background-color:#dfdfdf; background:url('../img/topBack.png') repeat #dfdfdf;}
 .topNav nav {height:inherit; width:95%; max-width:960px; margin:0 auto;}
-.topNav ul { list-style:none; width: 210px; float: right;margin-top:5px}
+.topNav ul { list-style:none; width: 270px; float: right;margin-top:5px}
 .topNav li {float:left; margin-left:23px; text-align:right;}
 .topNav a {display: block;text-transform: uppercase;color: #3e3e3e;padding: 4px;margin-top:1px;letter-spacing: .1em;background-color: #dedede;height: 16px;}
 .topNav a:hover {color:#899433;}
@@ -474,7 +474,7 @@ position: absolute;}
 }
 
 #searchBar{background: #dedede url('../img/glass.png') no-repeat 8px center;margin-top:6px;border: 0px solid #c6c6c6;}
-#searchBarFooter{background: transparent url('../img/glass.png') no-repeat 8px center;height:30px;border: 1px solid #c6c6c6;}
+#searchBarFooter{background: transparent url('../img/glass.png') no-repeat 8px center;height:30px;border: 1px solid #c6c6c6;width:50%;}
 .copyright {clear:both;}
 
 
