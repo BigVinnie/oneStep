@@ -390,7 +390,11 @@ background-repeat:none;}
 .containerPackage {float:left; width:28.125%; /*270px*/ padding:1.6%; /*15px*/ margin-right:2%; /*20px*/ background-color:#e0e0e0;}
 .pImage {width:100%;}
 .more {display:block; color:#fb5411;}
+
 .containerHomeIcons{float:left; width:100px;}
+.conatinerHomeIcons ul {list-style:none;}
+.conatinerHomeIcons li {float:left;}
+
 .containerPackage button {float:right; font-weight:bold; color:white; width:90px; height:30px; border-radius:3px; border:none; background-color:#fb5411;}
 .leftArrow, .rightArrow {position:absolute;  width:22px; height:44px; top:145px;}
 .leftArrow { left:-35px;background:url('../img/icons/arrowL.png') no-repeat;background-image:url('../img/icons/arrowL.png');background-repeat: no-repeat;}
