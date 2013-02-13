@@ -2,7 +2,6 @@
 <html class="no-js">
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="robots" content="noindex,nofollow">
         <title>ONE-STEP Holidays NZ</title>
         <meta name="description" content="">
@@ -16,15 +15,19 @@
     <body>
 
         <div class="masterWrap"><!--fullscreen wrapper-->
-            <div class="topNav">
-                <nav class="clearfix">
+           <div class="topNav clearfix"> <!-- TOP NAVIGATIONS -->
+             
+
+              <nav class="clearfix">
+                  <div class="topSearch">
+                      <form class="search">                        
+                            <label for="searchBar" id="srcTitle">SearchBar</label>
+                            <input id="searchBar" placeholder="Search" type="text" name="searchBar">
+                      </form>
+                  </div>
                     <ul class="clearfix">
-                        <li><a href="index.html">home</a></li>
-                        <li><a href="destination.html">map</a></li>
-                        <li><a href="info.htnl">about nz</a></li>
-                        <li><a href="info.html">info center</a></li>
                         <li><a href="checkout.html">contact us</a></li>
-                        <li class="signIn"><a href="#">sign in</a></li>
+                        <li class="signIn"><a href="#">Login / Sign Up</a></li>
                     </ul>
                 </nav>
                 <!--SIGN IN LINK-->
@@ -32,13 +35,29 @@
             </div>
             <div class="containerWrapGrid"><!--960 grid wrapper-->
                 <header class="header clearfix">
-                    <a href="index.html"><img class="logo" src="img/logo.png" alt="oneStop"></a>
+                    <div class="logoMain">
+                        <a href="index.html"><img src="img/logo.png" alt="oneStop"></a>                    
+                    </div>
                     <nav class="mainNav">
-                        <ul>
+                        <ul id="dropDown" class="clearfix">
                             <li><a href="destination.html"><img class="navIcon" src="img/icons/desti.png" alt="destination"><p>destinations</p></a></li>
-                                <li><a href="things to do template.html"><img class="navIcon" src="img/icons/tings.png" alt="thingstodo"><p>things to do</p></a></li>
-                                <li><a href="package template.html"><img class="navIcon" src="img/icons/packs.png" alt="packages"><p>packages</p></a></li>
-                                <li><a href="accomodation template.html"><img class="navIcon" src="img/icons/accom.png" alt="accomodation"><p>accomodations</p></a></li>
+
+                            <li><a href="thingstodotemplate.html"><img class="navIcon" src="img/icons/tings.png" alt="thingstodo"><p>things to do</p></a>
+                                <ul>
+                                    <li><a href="producttemplate.html"><p>Test one</p></a></li>
+                                    <li><a href="producttemplate.html"><p>Test Two</p></a></li>
+                                    <li><a href="producttemplate.html"><p>Test Three</p></a>
+                                        <ul>
+                                            <li><a href="producttemplate.html"><p>Test one</p></a></li>
+                                            <li><a href="producttemplate.html"><p>Test Two</p></a></li>
+                                            <li><a href="producttemplate.html"><p>Test Three</p></a>
+                                        </ul>
+                                    </li>
+                                    <li><a href="producttemplate.html"><p>Test Four</p></a></li>
+                                </ul>
+                            </li>
+                                <li><a href="packagetemplate.html"><img class="navIcon" src="img/icons/packs.png" alt="packages"><p>packages</p></a></li>
+                                <li><a href="accomodationtemplate.html"><img class="navIcon" src="img/icons/accom.png" alt="accomodation"><p>accomodations</p></a></li>
                                 <li><a href="checkout.html"><img class="navIcon" src="img/icons/cart.png" alt="cart"><p>checkout</p></a></li>
                             </ul>
                     </nav>
@@ -174,9 +193,9 @@
                         <ul>
                             <li><a href="index.html">Home</a></li>
                             <li><a href="destination.html">Destination</a></li>
-                            <li><a href="things to do.html">Things To Do</a></li>
-                            <li><a href="package.html">Packages</a></li>
-                            <li><a href="accomodation.html">Accommodation</a></li>
+                            <li><a href="thingstodotemplate.html">Things To Do</a></li>
+                            <li><a href="packagetemplate.html">Packages</a></li>
+                            <li><a href="accomodationtemplate.html">Accommodation</a></li>
                             <li><a href="#">Contact Us</a></li>
                         </ul>
                     </nav>
