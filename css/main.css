@@ -92,8 +92,8 @@ p{padding: 2% 0}
 .logoMain {float:left; max-width:222px; padding-top:10px; margin-right:0.2%; /*20px*/}
 .logoMain img{width: 100%;}
 .mainNav {float:right; width:70.83%; /*680px*/ }
-.mainNav ul {list-style:none; width:100%; margin:0; padding:0 0 20px 0;}
-.mainNav li {width:16.89%; /*115px*/ padding:0 1%; height:inherit; float:right; padding-top:10px; /* border-right:1px solid #E2E2E1 */ ;}
+.mainNav ul {list-style:none; width:100%; margin:0; padding:0 0 20px 0; text-align: right;}
+.mainNav li {width:16.89%; /*115px*/ padding:0 1%; height:inherit; display: inline-block; padding-top:10px; /* border-right:1px solid #E2E2E1 */ ;}
 
 .mainNav img { width:25px; height:25px;}
 .mainNav a {display:block; text-transform:uppercase; color:#858585; text-align:center;}
@@ -217,7 +217,20 @@ p{padding: 2% 0}
 /*========Sticky Cart=============*/
 .containerStickyCart {position:fixed; top:60px; right:-300px;}
 
-.noCart {float:left; text-align:center; width:50px; background-color:#b7b7b7; border-top-left-radius:3px; border-bottom-left-radius:3px;}
+.noCart {float:left; text-align:center; width:50px; background-color:#b7b7b7; border-top-left-radius:3px; border-bottom-left-radius:3px;
+		opacity: .7;
+	-webkit-transition: 300ms all;
+	-moz-transition: 300ms all;
+	-ms-transition: 300ms all;
+	-o-transition: 300ms all;
+}
+.noCart:hover{	opacity: 1;
+	-webkit-transition: 300ms all;
+	-moz-transition: 300ms all;
+	-ms-transition: 300ms all;
+	-o-transition: 300ms all;
+	cursor: pointer;}
+
 .noCart p {margin-top:5px; margin-bottom:5px; color:#D6D6D6;}
 .noCart img{ margin-top:10px; width:20px;}
 
@@ -454,7 +467,7 @@ position: absolute;}
 }
 
 #searchBar{background: #dedede url('../img/glass.png') no-repeat 8px center;margin-top:6px;border: 0px solid #c6c6c6;}
-#searchBarFooter{background: transparent url('../img/glass.png') no-repeat 8px center;height:30px;border: 1px solid #c6c6c6;}
+#searchBarFooter{background: transparent url('../img/glass.png') no-repeat 8px center;height:30px;border: 1px solid #c6c6c6;width: 40%;}
 .copyright {clear:both;}
 
 
