@@ -101,6 +101,13 @@ $(window).mouseleave(function() {
 					('-ms-transform', 'rotate('+degree+'deg)') ;	
 });
 
+/*=== Home image hover ===*/	
+
+$(".containerFeaturedImage ").hover(function () {
+        $(".captionOverlay").animate({height:"50px"}, 500);
+    }
+);
+
 
 
 
