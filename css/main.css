@@ -463,8 +463,20 @@ ACTIVITY PAGE
 ========================================*/
 
 .breadcrumbs {clear:both;}
-.containerHighlight {width:100%; background-color:#e0e0e0; padding:5px; border-radius:3px 3px;}
+.containerHighlight {position:relative; width:100%; background-color:#e0e0e0; padding:5px; border-radius:3px 3px;}
 .containerHighlight img {width:100%;}
+.highlightHeader {position:absolute; width:40%; bottom:5px; color:white; height:75px; left:7px;
+/* Fallback for web browsers that doesn't support RGBa */
+background: rgb(0, 0, 0) transparent;
+/* RGBa with 0.6 opacity */
+background: rgba(0, 0, 0, 0.3);
+/* For IE 5.5 - 7*/
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+/* For IE 8*/
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+
+.highlightHeader h2 {padding:10px; font-size:16px;}
 .beadcrumbs {width:100%;}
 .breadcrumbs a {float:left; color:black;}
 
