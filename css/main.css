@@ -366,7 +366,6 @@ background-repeat:none;}
 }
 
 ul#items{		
-		margin:1em 0;
 		width:auto;
 		min-height:350px;
 		overflow:hidden;
@@ -374,7 +373,7 @@ ul#items{
 
 ol#pagination{position:relative;text-align:center;}
 ol#pagination li{
-	display:inline-block;
+	display:none;
 	width:16px;
 	height:16px;
 	background:url(images/bg_buttons.png) no-repeat 0 0;
@@ -398,7 +397,7 @@ ol#pagination li.next{right:-30px;background:url(../img/bg_buttons.png) no-repea
 
 /*========Package Sections=============*/
 .containerPackages {position:relative; width:100%; padding-bottom:20px;}
-.packagesWrap {width:100%; overflow:hidden;border: 1px solid red;}
+.packagesWrap {width:100%;border: 1px solid red;}
 .containerPackage {float:left; width:28.125%; /*270px*/ padding:1.6%; /*15px*/ margin-right:2%; /*20px*/ background-color:#e0e0e0;}
 .pImage {width:100%;}
 .more {display:block; color:#fb5411;}
