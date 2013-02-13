@@ -484,7 +484,7 @@ ACTIVITY PAGE
 .breadcrumbs {clear:both;}
 .containerHighlight {position:relative; width:100%; background-color:#e0e0e0; padding:5px; border-radius:3px 3px;}
 .containerHighlight img {width:100%;}
-.highlightHeader {position:absolute; width:40%; bottom:0; color:white; height:75px;
+.highlightHeader {position:absolute; width:40%; bottom:5px; color:white; height:75px; left:7px;
 /* Fallback for web browsers that doesn't support RGBa */
 background: rgb(0, 0, 0) transparent;
 /* RGBa with 0.6 opacity */
